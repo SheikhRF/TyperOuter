@@ -2,6 +2,7 @@ import keyboard
 import time
 import random
 
+
 def file_write_out(fileName, delay):
     key_presses = []
     f = open(fileName+'.txt', 'r')
