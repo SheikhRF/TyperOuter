@@ -33,7 +33,7 @@ def file_write_out(fileName, delay):
                 except:
                     print('error:' + ch)
 def main():
-    wpm = 215
+    wpm = 40 # average typing speed higher number faster typing
     delay = 1/((wpm/60)*5)
     gogogadget = 1
     while gogogadget:
